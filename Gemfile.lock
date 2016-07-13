@@ -28,7 +28,7 @@ GEM
       json
     github-markup (1.4.0)
     gitlab-grit (2.8.1)
-      charlock_holmes (~> 0.6)
+      charlock_holmes (~> 0.8)
       diff-lcs (~> 1.1)
       mime-types (>= 1.16, < 3)
       posix-spawn (~> 0.3)
