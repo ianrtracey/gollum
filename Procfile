@@ -1,1 +1,1 @@
-web: gollum
+docker run -v `pwd`:/wiki -p 4567:80 gollum
