@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
 
   s.name              = 'gollum'
   s.version           = '4.0.1'
-  s.date              = '2016-05-19'
+  s.date              = '2016-08-10'
   s.rubyforge_project = 'gollum'
   s.license           = 'MIT'
 
@@ -31,7 +31,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'useragent', '~> 0.16.2'
   s.add_dependency 'gemojione', '~> 2'
   s.add_dependency 'sinatra-google-auth'
-  s.add_dependency 'omnigollum'
   s.add_dependency 'omniauth-slack'
   s.add_dependency 'omniauth'
   s.add_dependency 'omniauth-twitter'
@@ -48,18 +47,27 @@ Gem::Specification.new do |s|
 
   # = MANIFEST =
   s.files = %w[
+    Dockerfile
     Gemfile
+    Gemfile.lock
     HISTORY.md
+    Hello-world.md
     LICENSE
+    Procfile
     README.md
     Rakefile
+    Sponsors.md
+    Testing-Page.md
+    This-is-Home.md
     bin/gollum
+    config-slack.rb
     config.rb
     config.ru
     contrib/openrc/conf.d/gollum
     contrib/openrc/init.d/gollum
     contrib/systemd/gollum@.service
     contrib/sysv-debian/init.d/gollum
+    footer.md
     gollum.gemspec
     lib/gollum.rb
     lib/gollum/app.rb
@@ -1069,6 +1077,7 @@ Gem::Specification.new do |s|
     lib/gollum/templates/pages.mustache
     lib/gollum/templates/search.mustache
     lib/gollum/templates/searchbar.mustache
+    lib/gollum/templates/user.mustache
     lib/gollum/uri_encode_component.rb
     lib/gollum/views/compare.rb
     lib/gollum/views/create.rb
@@ -1087,6 +1096,7 @@ Gem::Specification.new do |s|
     licenses/css_tree_menu_thecssninja/license.txt
     licenses/licenses.txt
     licenses/unity_asset_pool/COPYRIGHT
+    yo-yo.md
   ]
   # = MANIFEST =
 
