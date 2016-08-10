@@ -30,6 +30,13 @@ Gem::Specification.new do |s|
   s.add_dependency 'mustache', ['>= 0.99.5', '< 1.0.0']
   s.add_dependency 'useragent', '~> 0.16.2'
   s.add_dependency 'gemojione', '~> 2'
+  s.add_dependency 'sinatra-google-auth'
+  s.add_dependency 'omnigollum'
+  s.add_dependency 'omniauth-slack'
+  s.add_dependency 'omniauth'
+  s.add_dependency 'omniauth-twitter'
+  s.add_dependency 'omniauth-github'
+  s.add_dependency 'omniauth-slack_signin'
 
   s.add_development_dependency 'rack-test', '~> 0.6.2'
   s.add_development_dependency 'shoulda', '~> 3.5.0'
